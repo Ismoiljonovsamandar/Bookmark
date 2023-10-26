@@ -1,0 +1,47 @@
+.stay {
+  padding: 88px 0;
+  background-color: #dbdbdb;
+}
+
+.stay__container {
+  text-align: center;
+  max-width: 676px;
+}
+
+.stay__title {
+  color: #828282;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 48px;
+}
+
+.stay__text {
+  color: #828282;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.stay__btn {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
+  padding: 20px 28px;
+  border-radius: 10px;
+  background-color: #828282;
+  border: none;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 700px) {
+  .stay__title {
+    font-size: 32px;
+  }
+
+  .stay__text {
+    font-size: 18px;
+  }
+}
